@@ -25,6 +25,7 @@ class Solution:
     			max_profit = elems - min_item
     	return max_profit
 if __name__ == '__main__':
-	ls = [7, 1, 5, 3, 6, 4]
+	#ls = [7, 1, 5, 3, 6, 4]
+	ls = [4, 3, 2, 1]
 	s = Solution()
 	print(s.maxProfit(ls))
