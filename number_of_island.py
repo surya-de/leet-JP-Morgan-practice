@@ -1,3 +1,8 @@
+'''
+	This is a BFS solution using Python3
+	to find the number of island from a
+	given matrix.
+'''
 from collections import deque
 class Solution:
 	def numIslands(self, grid):
@@ -54,7 +59,7 @@ class Solution:
 if __name__ == '__main__':
 	ls = [['1', '1', '1', '1', '0'], ['1', '1', '0', '1', '0'], ['1', '1', '0', '0', '0'], ['0', '0', '0', '0', '0']]
 	s = Solution()
-	s.numIslands(ls)
+	print(s.numIslands(ls))
 
-
+# This code is contributed by Suryadeep
 
